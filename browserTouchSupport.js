@@ -53,7 +53,7 @@
 		'touchend',
 		'gesturestart',
 		'gesturechange',
-		'gestureend',
+		'gestureend'
 	];
 
 	var el = document.createElement('div');
