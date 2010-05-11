@@ -1,5 +1,21 @@
+==============================================================================
+NOTE 
+Chrome will return true for touches support as it implements the touch events on all devices regardless 
+of touch input support on a particular device. You may want to add additional checks using the 
+userAgent using something like:
+
+/chrome/.test( navigator.userAgent.toLowerCase()
+
+though that's not ideal. For more information see discussions:
+
+http://code.google.com/p/chromium/issues/detail?id=36415
+http://groups.google.com/a/chromium.org/group/chromium-html5/browse_thread/thread/b20fb37936ea9196#
+http://stackoverflow.com/questions/2607248/optimize-website-for-touch-devices
+==============================================================================
+
 
 jQuery touch and gesture detection.
+---------------------------------------------------
 
 Usage:  
 
